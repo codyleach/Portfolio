@@ -1,0 +1,28 @@
+header {
+  height: 140px;
+  padding-top: 30px;
+}
+header .logo {
+  font-size: 32px;
+  color: #92cc0c;
+  font-family: Damion;
+}
+header nav {
+  text-align: right;
+  margin-top: 10px;
+}
+header nav li {
+  display: inline-block;
+  list-style: none;
+  height: 100%;
+}
+header nav a {
+  padding: 0 12px 10px;
+  margin: 0 10px;
+}
+header nav a.selected,
+header nav a:hover {
+  color: #ff5e42;
+  border-bottom: 4px solid #ffd1c9;
+  text-decoration: none;
+}

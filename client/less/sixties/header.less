@@ -1,0 +1,32 @@
+header {
+    height: 140px;
+    padding-top: 30px;
+    
+    .logo {
+        font-size: 32px;
+        color: #92cc0c;
+        font-family: Damion;
+    }
+    
+    nav {
+        text-align: right;
+        margin-top: 10px;
+        
+        li {
+            display: inline-block;
+            list-style: none;
+            height: 100%;
+        }
+        
+        a {
+            padding: 0 12px 10px;
+            margin: 0 10px;
+            
+            &.selected, &:hover {
+                color: #ff5e42;
+                border-bottom: 4px solid #ffd1c9;
+                text-decoration: none;
+            }
+        }
+    }
+}
