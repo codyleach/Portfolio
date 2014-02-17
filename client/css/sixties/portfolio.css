@@ -1,0 +1,11 @@
+.tile {
+  height: 215px;
+  margin-bottom: 30px;
+}
+.tile div {
+  background: #F8F8F8;
+  height: 100%;
+}
+.tile-container.first {
+  margin-top: 40px;
+}

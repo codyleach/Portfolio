@@ -3,17 +3,18 @@
   <head>
     <title>Hello!</title>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link href='http://fonts.googleapis.com/css?family=Lato:300,400|Damion' rel='stylesheet' type='text/css'>
+    <link href='https://fonts.googleapis.com/css?family=Lato:100,300,400|Damion' rel='stylesheet' type='text/css'>
     <link rel="stylesheet" href="/css/bootstrap.min.css">
-    <link rel="stylesheet" href="/css/bootstrap-theme.min.css">
+    <!--<link rel="stylesheet" href="/css/bootstrap-theme.min.css">-->
     <link rel="stylesheet" href="/css/sixties/theme.css">
     <link rel="stylesheet" href="/css/sixties/header.css">
+    <link rel="stylesheet" href="/css/sixties/portfolio.css">
   </head>
   <body>
     <header class="container">
         <div class="row">
-            <span class="logo col-xs-3">Cody Leach</span>
-            <nav class="col-xs-9">
+            <span class="logo col-md-3">Cody Leach</span>
+            <nav class="col-md-9">
                 <ul>
                     <li><a href="/about">About</a></li>
                     <li><a href="/portfolio" class="selected">Portfolio</a></li>
@@ -24,10 +25,29 @@
         </div>
     </header>
     <div class="container">
-      <h2>My portfolio</h2>
+        <div class="row">
+            <h2 class="col-md-12">My portfolio</h2>
+        </div>
+        <div class="row">
+            <div class="col-md-12">
+              The albums below are collections of work I have completed. Some of this work was for entire applications, whereas others were only specific aspects of applications. More details about each collection are given on their respective pages.
+            </div>
+        </div>
+        <div class="row tile-container first">
+            <div class="col-md-3 tile"><div><img src="img/1.png" class="img-responsive" /></div></div>
+            <div class="col-md-3 tile"><div></div></div>
+            <div class="col-md-3 tile"><div></div></div>
+            <div class="col-md-3 tile"><div></div></div>
+        </div>
+        <div class="row tile-container">
+            <div class="col-md-3 tile"><div></div></div>
+            <div class="col-md-3 tile"><div></div></div>
+            <div class="col-md-3 tile"><div></div></div>
+            <div class="col-md-3 tile"><div></div></div>
+        </div>
     </div>
     <script src="/js/jquery.min.js"></script>
     <script src="/js/bootstrap.min.js"></script>
-    <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.0.8/angular.min.js"></script>
+    <!--<script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.0.8/angular.min.js"></script>-->
   </body>
 </html>
